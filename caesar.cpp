@@ -3,8 +3,10 @@
 
 
 #include <iostream>
-#include<string>
+#include <string>
 #include "caesar.h"
+#include "vigenere.h"
+#include "funcs.h"
 
 // A helper function to shift one character by rshift
 char shiftChar(char c, int rshift){
